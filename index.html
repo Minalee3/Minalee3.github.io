@@ -1,41 +1,354 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mina 的博客</title>
-  <meta name="description" content="记录学习、工作与思考。">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mina Lee — 域名经纪人 | 金名网 4.CN</title>
+<meta name="description" content="Mina Lee，金名网（4.cn）域名经纪人。近六年专注域名买卖的撮合与谈判，服务中国及海外买家与卖家，单笔交易从数万元到数千万元。">
+<meta name="theme-color" content="#080A0E">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mina Lee — Domain Broker at 4.CN">
+<meta property="og:description" content="Domain brokerage, negotiation and escrow. Mandarin & English. 5+ years, hundreds of transactions.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
-  <header class="site-header">
-    <div class="wrap">
-      <a class="brand" href="/">Mina<span>.</span></a>
-      <nav class="nav">
-        <a href="/">首页</a>
-        <a href="about.html">关于</a>
-      </nav>
+<body data-title-zh="Mina Lee — 域名经纪人 | 金名网 4.CN" data-title-en="Mina Lee — Domain Broker | 4.CN">
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">MINA<span>LEE</span></a>
+    <nav class="nav" id="nav">
+      <a href="index.html" class="is-current" data-zh="首页" data-en="Home">首页</a>
+      <a href="about.html" data-zh="关于" data-en="About">关于</a>
+      <a href="services.html" data-zh="服务" data-en="Services">服务</a>
+      <a href="insights.html" data-zh="洞察" data-en="Insights">洞察</a>
+      <a href="contact.html" class="nav-cta" data-zh="联系我" data-en="Get in touch">联系我</a>
+    </nav>
+    <div class="header-right">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="zh" class="is-active">CN</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+      <button class="menu-btn" type="button" aria-label="Menu"><i></i></button>
     </div>
-  </header>
+  </div>
+</header>
 
-  <main class="wrap">
-    <section class="hero">
-      <h1>你好，我是 Mina</h1>
-      <p>这里记录我的学习、工作与思考。慢一点，但持续地写。</p>
-    </section>
+<main>
 
-    <section class="post-list">
-      <h2>最新文章</h2>
-      <article class="post-card">
-        <div class="post-meta"><time datetime="2026-10-20">2026 年 10 月 20 日</time></div>
-        <h3><a href="posts/welcome.html">开始写博客：从零搭起 GitHub Pages</a></h3>
-        <p>记录我用 git、SSH 和 GitHub Pages 搭建这个博客的全过程……</p>
-      </article>
-    </section>
-  </main>
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow" data-zh="域名经纪人 · 金名网 4.CN" data-en="Domain Broker · 4.CN">域名经纪人 · 金名网 4.CN</p>
 
-  <footer class="site-footer">
-    <div class="wrap">© 2026 Mina · Hosted on GitHub Pages</div>
-  </footer>
+          <h1>Mina <em>Lee</em></h1>
+
+          <h2 class="hero-sub"
+              data-zh="把域名，卖给真正愿意出价的人。"
+              data-en="Getting domains to the people who value them most.">把域名，卖给真正愿意出价的人。</h2>
+
+          <p class="hero-copy"
+             data-zh="我是金名网（4.cn）的域名经纪人。近六年只做一件事：在买方与卖方之间，找到那个对的价格。从几万元的小而美，到数千万元级的品牌资产，经手数百笔交易，客户分布在中国、北美、欧洲与中东。"
+             data-en="I am a domain broker at 4.CN, one of China's largest domain marketplaces. For nearly six years I have done one thing: finding the right price between a buyer and a seller. From five-figure deals to multi-million RMB brand assets, hundreds of transactions closed with clients across China, North America, Europe and the Middle East.">我是金名网（4.cn）的域名经纪人。近六年只做一件事：在买方与卖方之间，找到那个对的价格。从几万元的小而美，到数千万元级的品牌资产，经手数百笔交易，客户分布在中国、北美、欧洲与中东。</p>
+
+          <div class="actions">
+            <a class="btn btn-primary" href="contact.html">
+              <span data-zh="委托出售我的域名" data-en="Sell a domain">委托出售我的域名</span>
+              <span class="arw">→</span>
+            </a>
+            <a class="btn btn-ghost" href="services.html">
+              <span data-zh="我要收购某个域名" data-en="Acquire a domain">我要收购某个域名</span>
+            </a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <span class="num">5<small data-zh="+ 年" data-en="+ yrs">+ 年</small></span>
+              <span class="lab" data-zh="从业经验" data-en="Experience">从业经验</span>
+            </div>
+            <div class="stat">
+              <span class="num"><span data-zh="数百" data-en="100+">数百</span><small data-zh="笔" data-en="">笔</small></span>
+              <span class="lab" data-zh="经手交易" data-en="Transactions">经手交易</span>
+            </div>
+            <div class="stat">
+              <span class="num" data-zh="¥数千万" data-en="¥10M+">¥数千万</span>
+              <span class="lab" data-zh="单笔最高成交" data-en="Largest deal">单笔最高成交</span>
+            </div>
+            <div class="stat">
+              <span class="num">CN/EN</span>
+              <span class="lab" data-zh="双语直接谈判" data-en="Bilingual negotiation">双语直接谈判</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portrait">
+          <div class="portrait-frame">
+            <img src="assets/portrait.svg" alt="Mina Lee" width="800" height="1000">
+          </div>
+          <div class="portrait-tag" data-zh="上海 · 北京时间 GMT+8" data-en="Shanghai · GMT+8">上海 · 北京时间 GMT+8</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES ================= -->
+  <section id="services" class="block">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-zh="我做什么" data-en="What I do">我做什么</p>
+        <h2 data-zh="三条线，同一个目标：成交价更接近它真正的价值。"
+            data-en="Three engagements. One goal: a price closer to true value.">三条线，同一个目标：成交价更接近它真正的价值。</h2>
+        <p data-zh="域名不是标准商品。同一个域名，卖给终端品牌和卖给投资人，价格可能差三个数量级。我的工作是判断「谁才是那个买家」，然后把他找出来。"
+           data-en="A domain is not a commodity. The same name can be worth three orders of magnitude more to an end-user brand than to an investor. My job is to identify who that buyer is — and to reach them.">域名不是标准商品。同一个域名，卖给终端品牌和卖给投资人，价格可能差三个数量级。我的工作是判断「谁才是那个买家」，然后把他找出来。</p>
+      </div>
+
+      <div class="svc-grid reveal">
+        <article class="svc">
+          <span class="idx">01 / SELL-SIDE</span>
+          <h3 data-zh="卖方委托" data-en="Sell-side mandate">卖方委托</h3>
+          <p data-zh="你持有域名，我来负责定价、找买家和谈判。全程不公开挂牌，避免低价挂单拉低资产预期。"
+             data-en="You own the name; I handle pricing, buyer outreach and negotiation — off-market, so no public listing caps your expectations.">你持有域名，我来负责定价、找买家和谈判。全程不公开挂牌，避免低价挂单拉低资产预期。</p>
+          <ul>
+            <li data-zh="终端买家名单筛选与直接触达" data-en="End-user targeting &amp; direct outreach">终端买家名单筛选与直接触达</li>
+            <li data-zh="议价节奏与报价策略设计" data-en="Pricing strategy and negotiation pacing">议价节奏与报价策略设计</li>
+            <li data-zh="托管交割与资金安全" data-en="Escrow and secure transfer">托管交割与资金安全</li>
+          </ul>
+        </article>
+
+        <article class="svc">
+          <span class="idx">02 / BUY-SIDE</span>
+          <h3 data-zh="买方代表" data-en="Buy-side representation">买方代表</h3>
+          <p data-zh="你想买一个域名，但不知道持有人是谁、值多少钱、该怎么开口。我替你去谈，避免暴露你的身份和预算。"
+             data-en="You want a name, but don't know who owns it, what it's worth, or how to open. I negotiate on your behalf — without exposing your identity or budget.">你想买一个域名，但不知道持有人是谁、值多少钱、该怎么开口。我替你去谈，避免暴露你的身份和预算。</p>
+          <ul>
+            <li data-zh="持有人背景与历史报价调查" data-en="Owner research &amp; price history">持有人背景与历史报价调查</li>
+            <li data-zh="估值区间与出价方案" data-en="Valuation range and offer structure">估值区间与出价方案</li>
+            <li data-zh="匿名谈判，保护买方身份" data-en="Anonymous negotiation">匿名谈判，保护买方身份</li>
+          </ul>
+        </article>
+
+        <article class="svc">
+          <span class="idx">03 / ADVISORY</span>
+          <h3 data-zh="品牌与域名组合顾问" data-en="Brand &amp; portfolio advisory">品牌与域名组合顾问</h3>
+          <p data-zh="融资、出海、换品牌，都会突然需要一串域名。我帮你把该拿的拿到，把不该花的不花。"
+             data-en="Funding rounds, overseas expansion and rebrands all create sudden domain needs. I help you acquire what matters — and skip what doesn't.">融资、出海、换品牌，都会突然需要一串域名。我帮你把该拿的拿到，把不该花的不花。</p>
+          <ul>
+            <li data-zh="核心域名防御性布局" data-en="Defensive acquisition of core names">核心域名防御性布局</li>
+            <li data-zh="区域与语言市场域名规划" data-en="Regional &amp; language-market planning">区域与语言市场域名规划</li>
+            <li data-zh="分阶段收购，控制现金支出" data-en="Phased acquisition to manage cash">分阶段收购，控制现金支出</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROCESS ================= -->
+  <section id="process" class="block">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-zh="怎么合作" data-en="How it works">怎么合作</p>
+        <h2 data-zh="四步，从一句话到一笔成交。" data-en="Four steps, from first message to closed deal.">四步，从一句话到一笔成交。</h2>
+      </div>
+
+      <div class="steps reveal">
+        <div class="step">
+          <h3 data-zh="说清楚" data-en="Brief">说清楚</h3>
+          <p data-zh="你是买家还是卖家，域名是什么，为什么是它，时间上有多急。一轮对话就能判断这件事值不值得做。"
+             data-en="Buying or selling, which name, why this one, and how urgent. One conversation is usually enough to know whether it's worth pursuing.">你是买家还是卖家，域名是什么，为什么是它，时间上有多急。一轮对话就能判断这件事值不值得做。</p>
+        </div>
+        <div class="step">
+          <h3 data-zh="定价与策略" data-en="Price &amp; strategy">定价与策略</h3>
+          <p data-zh="结合历史成交、同类域名、终端适配度给区间。不是拍一个数字，而是设计一条走到那个数字的路径。"
+             data-en="A range based on comparables, prior sales and end-user fit — plus the path to actually get there.">结合历史成交、同类域名、终端适配度给区间。不是拍一个数字，而是设计一条走到那个数字的路径。</p>
+        </div>
+        <div class="step">
+          <h3 data-zh="找人，谈" data-en="Reach &amp; negotiate">找人，谈</h3>
+          <p data-zh="这是最花时间的部分。中英文双语直接沟通，跨时区跟到底，把「再想想」变成「可以签」。"
+             data-en="The time-consuming part: direct outreach and negotiation in Mandarin and English, across time zones, until \"maybe later\" becomes \"let's sign\".">这是最花时间的部分。中英文双语直接沟通，跨时区跟到底，把「再想想」变成「可以签」。</p>
+        </div>
+        <div class="step">
+          <h3 data-zh="托管交割" data-en="Escrow &amp; transfer">托管交割</h3>
+          <p data-zh="走正规托管流程，款项与域名同步释放，双方都不用担心对方先动手。"
+             data-en="Funds and domain release in step through a proper escrow process, so neither side has to move first.">走正规托管流程，款项与域名同步释放，双方都不用担心对方先动手。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CASES ================= -->
+  <section id="cases" class="block">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-zh="精选案例" data-en="Selected work">精选案例</p>
+        <h2 data-zh="一些已经完成的交易。" data-en="A few closed deals.">一些已经完成的交易。</h2>
+        <p data-zh="＊ 以下为匿名化示例结构，具体域名与金额待替换为真实案例（多数交易受保密协议约束，可只披露区间与行业）。"
+           data-en="* Anonymised sample structure — to be replaced with real cases. Most deals are NDA-bound, so ranges and industries are usually all that can be shared.">＊ 以下为匿名化示例结构，具体域名与金额待替换为真实案例（多数交易受保密协议约束，可只披露区间与行业）。</p>
+      </div>
+
+      <div class="cases reveal">
+        <article class="case">
+          <span class="kind" data-zh="两字母 .COM · 卖方委托" data-en="2-letter .COM · Sell-side">两字母 .COM · 卖方委托</span>
+          <h3><span class="ph" data-zh="● ● .com" data-en="● ● .com">● ● .com</span></h3>
+          <div class="amount">US$ <span class="ph">●●●,●●●</span>
+            <small data-zh="七位数区间 · 海外终端" data-en="Seven figures · overseas end-user">七位数区间 · 海外终端</small>
+          </div>
+          <p data-zh="持有人持有十余年，此前多次收到低价报价。重新梳理买家名单后直接触达海外品牌方，两轮议价达成。"
+             data-en="Held for over a decade with a history of lowball offers. I rebuilt the buyer list, reached the brand directly, and closed after two rounds.">持有人持有十余年，此前多次收到低价报价。重新梳理买家名单后直接触达海外品牌方，两轮议价达成。</p>
+          <div class="meta">
+            <span data-zh="周期 90 天" data-en="90 days">周期 90 天</span>
+            <span data-zh="CN → US" data-en="CN → US">CN → US</span>
+          </div>
+        </article>
+
+        <article class="case">
+          <span class="kind" data-zh="行业词 .COM · 买方代表" data-en="Category .COM · Buy-side">行业词 .COM · 买方代表</span>
+          <h3><span class="ph" data-zh="●●●●●.com" data-en="●●●●●.com">●●●●●.com</span></h3>
+          <div class="amount">US$ <span class="ph">●●●,●●●</span>
+            <small data-zh="六位数区间 · 融资后收购" data-en="Six figures · post-funding">六位数区间 · 融资后收购</small>
+          </div>
+          <p data-zh="客户融资后急需升级品牌域名，持有人开价高于预算三倍。以匿名买方身份谈判，最终在预算内成交。"
+             data-en="Client needed a brand upgrade post-funding; the owner asked three times the budget. Negotiating anonymously, we closed within budget.">客户融资后急需升级品牌域名，持有人开价高于预算三倍。以匿名买方身份谈判，最终在预算内成交。</p>
+          <div class="meta">
+            <span data-zh="周期 45 天" data-en="45 days">周期 45 天</span>
+            <span data-zh="US → CN" data-en="US → CN">US → CN</span>
+          </div>
+        </article>
+
+        <article class="case">
+          <span class="kind" data-zh="拼音双拼 · 卖方委托" data-en="Pinyin double-character · Sell-side">拼音双拼 · 卖方委托</span>
+          <h3><span class="ph" data-zh="●●.com" data-en="●●.com">●●.com</span></h3>
+          <div class="amount">¥ <span class="ph">●● 万</span>
+            <small data-zh="五位数区间 · 国内买家" data-en="Five figures RMB · domestic buyer">五位数区间 · 国内买家</small>
+          </div>
+          <p data-zh="卖家原本打算低价打包出手。逐一定位国内对口行业的中小企业后，单独售出，价格翻数倍。"
+             data-en="The seller planned a cheap bulk sale. After targeting SMEs in the matching industry one by one, the name sold individually for several times more.">卖家原本打算低价打包出手。逐一定位国内对口行业的中小企业后，单独售出，价格翻数倍。</p>
+          <div class="meta">
+            <span data-zh="周期 30 天" data-en="30 days">周期 30 天</span>
+            <span data-zh="CN → CN" data-en="CN → CN">CN → CN</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TESTIMONIALS ================= -->
+  <section id="clients" class="block">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-zh="客户怎么说" data-en="Clients">客户怎么说</p>
+        <h2 data-zh="谈过的人，比成交的多。" data-en="Many more conversations than closings.">谈过的人，比成交的多。</h2>
+      </div>
+
+      <div class="quotes reveal">
+        <blockquote class="quote">
+          <p data-zh="“同一笔交易，我谈了一年没结果。她接手后第三周就约到了对方决策人。”"
+             data-en="&ldquo;I negotiated the same deal for a year with nothing to show. Within three weeks of taking over, she was talking to the decision maker.&rdquo;">“同一笔交易，我谈了一年没结果。她接手后第三周就约到了对方决策人。”</p>
+          <cite><span class="ph" data-zh="客户名称 · 待补充" data-en="Client name · TBC">客户名称 · 待补充</span></cite>
+        </blockquote>
+
+        <blockquote class="quote">
+          <p data-zh="“她直接告诉我这个价格不合理，还给了理由。这种话说出来不容易，但省了我很多钱。”"
+             data-en="&ldquo;She told me directly that the price didn't make sense — and why. Not easy to say, but it saved me a lot.&rdquo;">“她直接告诉我这个价格不合理，还给了理由。这种话说出来不容易，但省了我很多钱。”</p>
+          <cite><span class="ph" data-zh="客户名称 · 待补充" data-en="Client name · TBC">客户名称 · 待补充</span></cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INSIGHTS ================= -->
+  <section id="insights" class="block">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-zh="行业洞察" data-en="Insights">行业洞察</p>
+        <h2 data-zh="关于定价、谈判和市场的一些实话。" data-en="Straight talk on pricing, negotiation and this market.">关于定价、谈判和市场的一些实话。</h2>
+      </div>
+
+      <div class="rows reveal">
+        <a class="row" href="posts/why-a-broker.html">
+          <span class="date">2026.10</span>
+          <div>
+            <h3 data-zh="为什么你的域名挂了三年都卖不掉" data-en="Why your domain has been listed for three years">为什么你的域名挂了三年都卖不掉</h3>
+            <p data-zh="挂牌价、曝光渠道、买家身份——多数停滞的交易，问题都不在域名本身。"
+               data-en="Asking price, exposure, buyer identity — for most stalled deals the problem isn't the name.">挂牌价、曝光渠道、买家身份——多数停滞的交易，问题都不在域名本身。</p>
+          </div>
+          <span class="go" data-zh="阅读 →" data-en="Read →">阅读 →</span>
+        </a>
+
+        <a class="row" href="posts/valuation.html">
+          <span class="date">2026.09</span>
+          <div>
+            <h3 data-zh="一个域名值多少钱，到底谁说了算" data-en="Who actually decides what a domain is worth">一个域名值多少钱，到底谁说了算</h3>
+            <p data-zh="对比成交数据只能给你下限，真正的上限来自「它对某家公司有多重要」。"
+               data-en="Comparables set your floor. The ceiling comes from how much it matters to one specific company.">对比成交数据只能给你下限，真正的上限来自「它对某家公司有多重要」。</p>
+          </div>
+          <span class="go" data-zh="阅读 →" data-en="Read →">阅读 →</span>
+        </a>
+
+        <a class="row" href="posts/welcome.html">
+          <span class="date">2026.10</span>
+          <div>
+            <h3 data-zh="中国卖家卖给海外终端，最容易踩的三个坑" data-en="Three traps when selling to overseas end-users">中国卖家卖给海外终端，最容易踩的三个坑</h3>
+            <p data-zh="语言只是最小的障碍，真正难的是报价预期、沟通节奏和交割信任。"
+               data-en="Language is the smallest obstacle. Expectations, pace and transfer trust are the real ones.">语言只是最小的障碍，真正难的是报价预期、沟通节奏和交割信任。</p>
+          </div>
+          <span class="go" data-zh="阅读 →" data-en="Read →">阅读 →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section id="contact-cta" class="block tight">
+    <div class="wrap">
+      <div class="cta-band reveal">
+        <div>
+          <h2 data-zh="有个域名，想聊聊？" data-en="Got a name you want to talk about?">有个域名，想聊聊？</h2>
+          <p data-zh="买家、卖家、或者只是想听听估值意见，都欢迎直接找我。大多数消息我会在 24 小时内回复。"
+             data-en="Buying, selling, or just curious what a name is worth — message me directly. I usually reply within 24 hours.">买家、卖家、或者只是想听听估值意见，都欢迎直接找我。大多数消息我会在 24 小时内回复。</p>
+        </div>
+        <a class="btn btn-primary" href="contact.html">
+          <span data-zh="查看联系方式" data-en="Contact details">查看联系方式</span>
+          <span class="arw">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="index.html">MINA<span>LEE</span></a>
+        <p data-zh="域名经纪人 · 金名网 4.CN。中英双语，服务全球买家与卖家。"
+           data-en="Domain broker at 4.CN. Bilingual service for buyers and sellers worldwide.">域名经纪人 · 金名网 4.CN。中英双语，服务全球买家与卖家。</p>
+      </div>
+      <div class="foot-links">
+        <div class="foot-col">
+          <h4 data-zh="导航" data-en="Site">导航</h4>
+          <a href="about.html" data-zh="关于我" data-en="About">关于我</a>
+          <a href="services.html" data-zh="服务" data-en="Services">服务</a>
+          <a href="insights.html" data-zh="洞察" data-en="Insights">洞察</a>
+          <a href="contact.html" data-zh="联系" data-en="Contact">联系</a>
+        </div>
+        <div class="foot-col">
+          <h4 data-zh="联系" data-en="Reach me">联系</h4>
+          <a href="mailto:hello@example.com">hello@example.com</a>
+          <a href="https://wa.me/8613800000000" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://t.me/yourid" target="_blank" rel="noopener">Telegram</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="yr">2026</span> Mina Lee. <span data-zh="保留所有权利。" data-en="All rights reserved.">保留所有权利。</span></span>
+      <span data-zh="本页面由 GitHub Pages 托管" data-en="Hosted on GitHub Pages">本页面由 GitHub Pages 托管</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
 </body>
 </html>

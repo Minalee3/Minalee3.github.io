@@ -84,6 +84,9 @@ h1, h2, h3, h4 {
 
 p { margin: 0 0 1.1em; text-wrap: pretty; }
 
+/* keep a quantity + unit together so CJK line-breaking never splits them */
+.nw { white-space: nowrap; }
+
 .eyebrow {
   font-family: var(--sans);
   font-size: 11px;

@@ -17,11 +17,10 @@
       var el = nodes[i];
       var val = el.getAttribute(lang === 'en' ? 'data-en' : 'data-zh');
       if (val === null) continue;
-      if (el.hasAttribute('data-html')) {
-        el.innerHTML = val;
-      } else {
-        el.textContent = val;
-      }
+      /* Always render as markup: the bilingual values are authored HTML
+         (contain <strong>, <br>, &ldquo; …), so textContent would print the
+         tags and entities literally. Content is static and trusted. */
+      el.innerHTML = val;
     }
 
     var titles = document.body.dataset;

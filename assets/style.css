@@ -669,35 +669,6 @@ section.block.tight { padding: 76px 0; }
   line-height: 1.8;
 }
 
-/* ---------- Quotes ---------- */
-
-.quotes {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-}
-
-.quote {
-  border-left: 2px solid var(--gold-dim);
-  padding: 6px 0 6px 28px;
-}
-
-.quote p {
-  font-family: var(--serif);
-  font-size: 19px;
-  line-height: 1.65;
-  color: var(--text);
-  margin-bottom: 18px;
-}
-
-.quote cite {
-  font-style: normal;
-  font-size: 12.5px;
-  color: var(--muted-2);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
 /* ---------- List rows (insights) ---------- */
 
 .rows { border-top: 1px solid var(--line); }
@@ -1132,7 +1103,6 @@ section.block.tight { padding: 76px 0; }
   .svc-grid { grid-template-columns: 1fr; }
   .cases { grid-template-columns: 1fr; }
   .steps { grid-template-columns: repeat(2, 1fr); gap: 32px; }
-  .quotes { grid-template-columns: 1fr; }
   .about-grid { grid-template-columns: 1fr; gap: 48px; }
   .about-grid .side { position: static; }
   .contact-grid { grid-template-columns: 1fr; gap: 44px; }
